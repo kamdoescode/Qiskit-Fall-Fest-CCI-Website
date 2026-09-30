@@ -54,7 +54,7 @@
   width: 100%;
   height: 100%;
   background-image: url('assets/quantum-patt.png');
-  opacity: 0.6;
+  opacity: 0.45;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -183,8 +183,8 @@ h3 {
     transform: translateX(-50%);
     color: #FFF;
     text-decoration: none;
-    font-family: Arial;
-    font-size: 16px;
+    font-family: IBM Plex Sans;
+    font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -207,6 +207,9 @@ h3 {
 .about-col,
 .location-col {
     flex: 1 1 400px;
+    background: rgba(71, 75, 78, 0.60); /* dark, translucent */
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
 }
  
 .about-section h4 {
@@ -221,11 +224,18 @@ h3 {
 .section-subtext {
     color: #FFF;
     font-family: IBM Plex Sans;
-    font-size: 16px;
+    font-size: 28px;
     font-weight: 400;
     line-height: normal;
     margin-top: 8px;
     text-align: left;
+}
+
+ul {
+    font-family: IBM Plex Sans;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
 }
  
 .location-col {
@@ -323,7 +333,7 @@ h3 {
     color: #FFF;
     font-family: IBM Plex Sans;
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: normal;
     margin: 0;
     text-align: left;
