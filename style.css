@@ -243,24 +243,18 @@ ul {
     flex-direction: column;
 }
  
-.image-placeholder {
+.image-qiskit img {
     width: 100%;
     max-width: 700px;
     aspect-ratio: 16 / 9;
-    background-color: #d9d9d9;
     display: flex;
+    border-radius: 14px;
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
 }
  
-.image-placeholder span {
-    background-color: #d9d9d9;
-    padding: 4px 10px;
-    font-family: Arial;
-    font-size: 14px;
-    color: #000;
-}
+
 /* Schedule section */
 .schedule-section {
     padding: 100px 80px;
@@ -454,13 +448,24 @@ ul {
 }
 
 /* Links Page */
+.back-btn {
+    padding: 10px;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+}
+
+.back-arrow {
+    height: 30px;
+    width: 30px;
+}
 
 .links-section {
     display: flex;
     flex-direction: column;
     align-items: center;   /* centers the heading and the list horizontally */
     text-align: center;
-    padding-top: 4rem;
+    padding-top: 12rem;
 }
 
 .links-section h6{
@@ -479,10 +484,17 @@ ul {
     max-width: 90%;
     padding: 1rem 2rem;
     margin: 1.5rem 0;
-    background: #E8DBFF;
+    background: #A570FF;
     border-radius: 999px;
     text-decoration: none;
+    font-family: Space Grotesk;
+    font-weight: 300;
+    font-size: 16px;
     color: #FFF;
+}
+
+.link-pill:hover {
+    background-color: #8a4ed1;
 }
  
 @media (max-width: 900px) {
