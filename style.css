@@ -276,20 +276,16 @@ ul {
     text-align: left;
 }
  
-.schedule-placeholder {
+.schedule-image img{
     width: 100%;
-    height: 600px;
+    height: 100%;
+    border-radius: 20px;
     background-color: #d9d9d9;
     display: flex;
     align-items: center;
     justify-content: center;
 }
  
-.schedule-placeholder span {
-    font-family: Arial;
-    font-size: 28px;
-    color: #000;
-}
  
 /* Featured Speakers section */
 .speakers-section {
@@ -455,6 +451,38 @@ ul {
 .partner-circle img {
     width: 200px;
     height: 80px;
+}
+
+/* Links Page */
+
+.links-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers the heading and the list horizontally */
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.links-section h6{
+    color: #FFF;
+    font-family: Space Grotesk;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.link-pill {
+    display: block;
+    width: 482px;
+    height: 78px;
+    max-width: 90%;
+    padding: 1rem 2rem;
+    margin: 1.5rem 0;
+    background: #E8DBFF;
+    border-radius: 999px;
+    text-decoration: none;
+    color: #FFF;
 }
  
 @media (max-width: 900px) {
