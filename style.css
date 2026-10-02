@@ -287,6 +287,16 @@ ul {
     min-height: 100vh;
 }
  
+.speakers-section p {
+    color: #FFF;
+    font-family: IBM Plex Sans;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 8px;
+    text-align: left;
+}
+
 .speakers-section h4 {
     color: #FFF;
     font-family: Space Grotesk Bold;
