@@ -313,22 +313,27 @@ ul {
     gap: 30px;
 }
  
-.speaker-photo {
+.speaker-avatar {
     width: 100%;
     aspect-ratio: 1 / 1;
     border-radius: 20px;
-    padding: 40px 20px;
+    /* padding: 40px 20px; */
     background-color: #d9d9d9;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 12px;
+    object-fit: cover;       /* crops the image to fill the circle, no distortion */
+    object-position: center;
 }
  
-.speaker-photo svg {
-    fill: #1f1f1f;
+.speaker-card {
+    flex: 1 1 400px;
+    background: rgba(71, 75, 78, 0.60); /* dark, translucent */
+    padding: 1.5rem 2rem;
+    border-radius: 12px;
 }
- 
+
 .speaker-card h5 {
     color: #FFF;
     font-family: IBM Plex Sans;
